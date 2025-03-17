@@ -21,8 +21,8 @@ This web app detects **WBCs, RBCs, and Platelets** in microscopic blood images u
 - Classes: WBC, RBC, Platelets
 
 ## 📸 Sample Image
-Use [this image](https://github.com/Shenggan/BCCD_Dataset/blob/master/BCCD/JPEGImages/BloodImage_00006.jpg) for testing.
+Use [this image](https://github.com/Shenggan/BCCD_Dataset/blob/master/BCCD/JPEGImages/BloodImage_00006.jpg) or [this image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fquizlet.com%2F272599408%2Fblood-cells-under-the-microscope-diagram%2F&psig=AOvVaw3pHJrYIRd8WU2kClgjBZR_&ust=1742285743035000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNCqwbDWkIwDFQAAAAAdAAAAABAE)for testing.
+
 
 ---
-
-> Made with ❤️ for Artigence Healthcare Internship Assignment
+> Made for Artigence Healthcare Internship Assignment
