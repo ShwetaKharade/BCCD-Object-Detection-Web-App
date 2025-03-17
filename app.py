@@ -5,10 +5,10 @@ import pandas as pd
 import numpy as np
 import torch
 
-# Load fine-tuned model
+# Load fine tuned model
 @st.cache_resource
 def load_model():
-    model = YOLO("/content/BCCD_Dataset/bccd-streamlit-app/yolov10_best.pt")  # path to your trained model
+    model = YOLO("/content/BCCD_Dataset/bccd-streamlit-app/yolov10_best.pt") 
     return model
 
 model = load_model()
@@ -25,7 +25,6 @@ if uploaded_image is not None:
     image = Image.open(uploaded_image).convert("RGB")
     st.image(image, caption="Uploaded Image", use_column_width=True)
 
-    # Perform inference
     results = model.predict(image)
     result = results[0]
     
